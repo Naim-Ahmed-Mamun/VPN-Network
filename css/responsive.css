@@ -1,0 +1,260 @@
+
+
+
+@media (min-width:1201px) and (max-width:1400px){
+
+    /* --pricing */
+    .pricing_items {
+        padding: 70px 60px;
+    }
+}
+
+@media (min-width:993px) and (max-width:1200px){
+    /* --header-- */
+    .navbar-nav {
+        margin-left: 100px;
+    }
+    .navbar-nav .nav-item {
+        margin-right: 30px;
+    }
+    .hero_inner_content h2 {
+        font-size: 40px;
+    }
+    /* --pricing- */
+    .pricing_items {
+        padding: 50px 40px;
+    }
+    /* --logo */
+    .amazon_logo {
+        width: 200px;
+    }
+    /* --testimonial-- */
+    .testi_info h4 {
+        font-size: 16px;
+    }
+    .testi_details img {
+        margin-right: 15px;
+    }
+    .testi_text {
+        height: 120px;
+    }
+}
+
+@media (min-width:769px) and (max-width:992px){
+    /* --header-- */
+    .hero_container {
+        height: 100vh;
+    }
+    .hero_inner_content {
+        padding-top: 50px;
+    }
+    .hero_img {
+        margin-top: 50px;
+    }
+    /* --feature */
+    .feature_text h2 {
+        font-size: 25px;
+        line-height: 45px;
+    }
+    /* --pricing */
+    .pricing_items {
+        padding: 50px 45px;
+        margin-bottom: 30px;
+    }
+    /* --logo-- */
+    .company_logo {
+        margin-bottom: 50px;
+    }
+    /* --testimonial */
+    .testi_item {
+        margin-bottom: 30px;
+    }
+    /* --subscribe */
+    .subscribe_text h2 {
+        font-size: 28px;
+    }
+     /* --footer-- */
+     .footer_items {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px){
+     /* --users */
+     .users {
+        margin-bottom: 30px;
+    }
+    /* --feature */
+    .feature_text {
+        margin-top: 100px;
+    }
+    /* --pricing */
+    .pricing_items {
+        padding: 60px 70px;
+        margin-bottom: 30px;
+    }
+    /* --network- */
+    .global_network_title h2 {
+        font-size: 32px;
+    }
+    /* --logo-- */
+    .company_logo {
+        margin-bottom: 50px;
+    }
+    /* --testimonial */
+    .testi_item {
+        margin-bottom: 30px;
+    }
+    /* --footer-- */
+    .footer_items {
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width:376px) and (max-width:576px) {
+    .hero_content {
+        margin-bottom: 50px;
+    }
+    .hero_inner_content h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    /* --users */
+    .users {
+        margin-left: 150px;
+        margin-bottom: 30px;
+    }
+    /* ---feature */
+
+    .feature_img {
+        margin-bottom: 50px;
+     }
+     .feature_text h2 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .feature_text p {
+        font-size: 14px;
+        line-height: 30px;
+        max-width: 220px;
+    }
+    .feature_content {
+        display: flex;
+        justify-content: center;
+    }
+    /* ---pricing- */
+    .pricing_items {
+        border: 2px solid #DDDDDD;
+        padding: 50px 50px;
+        margin-bottom: 20px;
+    }
+    /* --network */
+    .global_network_title h2 {
+        font-size: 28px;
+        line-height: 45px;
+    }
+    /* ---logo */
+    .company_logo {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .company_logo .logo{
+        margin-bottom: 25px;
+    }
+    /* --testimonial */
+    .testimonial_title h2 {
+        font-size: 28px;
+    }
+    .testi_item {
+        margin-bottom: 30px;
+    }
+    /* subscribe */
+    .subscribe_text h2 {
+        font-size: 28px;
+    }
+    .subscribe_text {
+        text-align: center;
+    }
+    /* footer */
+    .copyright {
+        margin-bottom: 30px;
+    }
+    .footer_items {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media (max-width:375px) {
+    .hero_content {
+        margin-bottom: 50px;
+    }
+    .hero_inner_content h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    /* --users */
+    .users {
+        margin-bottom: 20px;
+    }
+    .users {
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    /* ---feature */
+
+    .feature_img {
+        margin-bottom: 50px;
+     }
+     .feature_text h2 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .feature_text p {
+        font-size: 14px;
+        line-height: 30px;
+        max-width: 220px;
+    }
+    .feature_content {
+        display: flex;
+        justify-content: center;
+    }
+    /* ---pricing- */
+    .pricing_items {
+        border: 2px solid #DDDDDD;
+        padding: 50px 50px;
+        margin-bottom: 20px;
+    }
+    /* --network */
+    .global_network_title h2 {
+        font-size: 28px;
+        line-height: 45px;
+    }
+    /* ---logo */
+    .company_logo {
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .company_logo .logo{
+        margin-bottom: 25px;
+    }
+    /* --testimonial */
+    .testimonial_title h2 {
+        font-size: 28px;
+    }
+    .testi_item {
+        margin-bottom: 30px;
+    }
+    /* subscribe */
+    .subscribe_text h2 {
+        font-size: 28px;
+    }
+    /* footer */
+    .copyright {
+        margin-bottom: 30px;
+    }
+    .footer_items {
+        margin-bottom: 30px;
+    }
+
+}

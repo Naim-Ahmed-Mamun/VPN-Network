@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Bootstrap Landing Page</title>
+	<!-- bootstrap cdn -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+	<!-- google fonts----->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet" />
+	<!-- font awesome cdn -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+	<!-- main css -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- responsive css -->
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+	<!---------header section start--------->
+	<header>
+		<!-- navbar start -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<div class="logo">
+					<a class="navbar-brand" href="#"><img src="images/Logo.svg" alt="logo" />
+					</a>
+				</div>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Features</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Pricing</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Testimonials</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Help</a>
+						</li>
+					</ul>
+					<div class="login d-flex align-items-center">
+						<div class="sign_in">
+							<a href="#">Sign In</a>
+						</div>
+						<div class="sign_up">
+							<a href="#" class="rounded-pill d-inline-block">Sign Up</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<!-- navbar end -->
+		<img src="" alt="">
+		<!--hero section start-->
+		<div class="container hero_container d-flex align-items-center justify-content-center">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="hero_content">
+						<div class="hero_inner_content">
+							<h2>Want anything to be easy with <span>LaslesVPN.</span></h2>
+							<p> Provide a network for all your needs with ease and fun using <span>LaslesVPN</span>
+							  <br class="d-none d-xl-block" />discover interesting features from us.</p>
+							<div class="hero_btn rounded text-center d-inline-block">
+								<a href="#" class="fw-bold d-inline-block">Get Started</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="hero_img">
+						<img class="img-fluid" src="images/hero_img.svg" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--hero section end-->
+	</header>
+
+	<!---------header section end--------->
+
+	<!--------users location section start------------->
+
+	<section class="users_section">
+		<div class="container">
+			<div class="row users_items bg-light shadow rounded">
+				<div class="col-lg-4 col-sm-6 col-md-4">
+					<div class="users d-flex align-items-center justify-content-lg-center">
+						<div class="icon">
+							<i class="fas fa-user"></i>
+						</div>
+						<div class="user_text">
+							<h2>90+</h2>
+							<h5>Users</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 col-md-4">
+					<div class="users d-flex align-items-center justify-content-lg-center">
+						<div class="icon">
+							<i class="fas fa-map-marker-alt"></i>
+						</div>
+						<div class="user_text">
+							<h2>30+</h2>
+							<h5>Locations</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-sm-6 col-md-4">
+					<div class="users d-flex align-items-center justify-content-lg-center">
+						<div class="icon">
+							<i class="fas fa-server"></i>
+						</div>
+						<div class="user_text">
+							<h2>50+</h2>
+							<h5>Servers</h5>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--------users location section end------------->
+
+	<!-------features section start---------- -->
+	<section class="features">
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col-lg-6 col-md-6">
+					<div class="feature_img">
+						<img src="images/fewature.svg" alt="" />
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="feature_content">
+						<div class="feature_text">
+							<h2>We Provide Many <br />
+								Features You Can Use
+							</h2>
+							<p> You can explore the features that we provide with fun <br class="d-none d-lg-block" />
+								and have their own functions each feature.</p>
+
+							<ul class="features_deatils">
+								<li>
+									<span><i class="fas fa-check check"></i></span> Powerfull
+									online protection.
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Internet
+									without borders.
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Supercharged
+									VPN
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> No specific
+									time limits.
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-------features section end---------- -->
+
+	<!-- pricing plan section start--------->
+	<section class="pricing_section">
+		<div class="container">
+			<div class="pricing_plan_title text-center">
+				<h2>Choose Your Plan</h2>
+				<p>
+					Let's choose the package that is best for you and explore it happily
+					and cheerfully.
+				</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
+					<div class="pricing_items rounded">
+						<div class="pricing_header text-center">
+							<img src="images/pricing.svg" alt="" />
+							<h5>Free Plan</h5>
+						</div>
+						<div class="pricing_body">
+							<ul>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Unlimited Bandwitch
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Encrypted Connection
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> No Traffic Logs
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Works on All Devices
+								</li>
+							</ul>
+						</div>
+						<div class="pricing_footer text-center">
+							<h4>Free</h4>
+							<a href="#" class="select_btn rounded-pill">Select</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6 d-flex align-items-center justify-content-center">
+					<div class="pricing_items rounded">
+						<div class="pricing_header text-center">
+							<img src="images/pricing.svg" alt="" />
+							<h5>Standard Plan</h5>
+						</div>
+						<div class="pricing_body">
+							<ul>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Unlimited Bandwitch
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Encrypted Connection
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Yes Traffic Logs
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Works on All Devices
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Connect Anyware
+								</li>
+							</ul>
+						</div>
+						<div class="pricing_footer text-center">
+							<h4>$9 / mo</h4>
+							<a href="#" class="select_btn rounded-pill">Select</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 d-flex align-items-center justify-content-center">
+					<div class="pricing_items rounded">
+						<div class="pricing_header text-center">
+							<img src="images/pricing.svg" alt="" />
+							<h5>Premium Plan</h5>
+						</div>
+						<div class="pricing_body">
+							<ul>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Unlimited Bandwitch
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Encrypted Connection
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> yes Traffic Logs
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Works on All Devices
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Connect Anyware
+								</li>
+								<li>
+									<span><i class="fas fa-check check"></i></span> Get New Features
+								</li>
+							</ul>
+						</div>
+						<div class="pricing_footer text-center">
+							<h4>$12 / mo</h4>
+							<a href="#" class="select_btn rounded-pill">Select</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- pricing plan section end--------->
+
+	<!-----------global network section start------->
+	<section class="global_network_section">
+		<div class="container">
+			<div class="global_network_title text-center">
+				<h2>Huge Global Network <br class="d-none d-md-block" />of Fast VPN</h2>
+				<p>See <span>LaslesVPN</span> everywhere to make it easier for you when you move 
+				<br class="d-none d-xxl-block"/> locations.</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="huge_global_img text-center">
+						<img src="images/Huge_Global.svg" alt="" />
+					</div>
+				</div>
+				<div class="col-lg-12">
+					<div class="company_logo d-flex justify-content-between flex-wrap align-items-center">
+						<div class="netflix_logo logo">
+							<img src="images/Netflix.svg" alt="" />
+						</div>
+						<div class="reddit_logo logo">
+							<img src="images/Reddit.svg" alt="" />
+						</div>
+						<div class="amazon_logo logo">
+							<img src="images/amzon.svg" alt="" />
+						</div>
+						<div class="giscord_logo logo">
+							<img src="images/giscord.svg" alt="" />
+						</div>
+						<div class="spotify_logo logo">
+							<img src="images/spotify.svg" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-----------global network section end----- -->
+
+	<!-------------testimonial section start---------------->
+	<section class="testimonial">
+		<div class="container">
+			<div class="testimonial_title text-center">
+				<h2>Trusted by Thousands of <br> Happy Customer</h2>
+				<p>These are the stories of our customers who have joined us with great <br> pleasure when using this
+					crazy feature.</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6">
+					<div class="testi_item shadow-lg p-4">
+						<div class="testi_details_rating d-flex justify-content-between align-items-center">
+							<div class="testi_details d-flex">
+								<img src="images/testi_img_1.png" alt="" />
+								<div class="testi_info">
+									<h4>Viezh Robert</h4>
+									<h5>Warsaw, Poland</h5>
+								</div>
+							</div>
+							<div class="rating">
+								<span>4.5</span>
+								<i class="fas fa-star"></i>
+							</div>
+						</div>
+						<div class="testi_text">
+							<p>
+								“Wow... I am very happy to use this VPN, it turned out to be
+								more than my expectations and so far there have been no
+								problems. LaslesVPN always the best”.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="testi_item shadow-lg p-4">
+						<div class="testi_details_rating d-flex justify-content-between align-items-center">
+							<div class="testi_details d-flex">
+								<img src="images/testi_img_2.png" alt="" />
+								<div class="testi_info">
+									<h4>Yessica Christy</h4>
+									<h5>Shanxi, China</h5>
+								</div>
+							</div>
+							<div class="rating">
+								<span>4.5</span>
+								<i class="fas fa-star"></i>
+							</div>
+						</div>
+						<div class="testi_text">
+							<p>“I like it because I like to travel far and still can connect with high speed.”.</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-4 col-md-6">
+					<div class="testi_item shadow-lg p-4">
+						<div class="testi_details_rating d-flex justify-content-between align-items-center">
+							<div class="testi_details d-flex">
+								<img src="images/testi_img_3.png" alt="" />
+								<div class="testi_info">
+									<h4>Kim Young Jou</h4>
+									<h5>Seoul, South Korea</h5>
+								</div>
+							</div>
+							<div class="rating">
+								<span>4.5</span>
+								<i class="fas fa-star"></i>
+							</div>
+						</div>
+						<div class="testi_text">
+							<p>“This is very unusual for my business that currently requires a virtual private network
+								that has high security.”.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-------------testimonial section end---------------->
+
+	<!--subscribe section start-------------- -->
+	<section class="subscribe">
+		<div class="container">
+			<div class="row align-items-center shadow-lg p-4 rounded">
+				<div class="col-lg-6 col-md-6">
+					<div class="subscribe_text">
+						<h2>Subscribe Now for <br> Get Special Features!</h2>
+						<p>Let's subscribe with us and find the fun.</p>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6">
+					<div class="subscribe_btn text-center">
+						<button class="btn btn-danger">Subscribe Now</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--subscribe section end-------------- -->
+
+	<!---------footer section start-------->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 col-sm-6">
+					<div class="footer-details-social-link">
+						<div class="details">
+							<img class="footer_logo" src="images/Logo.svg" alt="">
+							<p><span>LaslesVPN</span> is a private virtual network that <br> has unique features and has
+								high security.</p>
+							<div class="social">
+								<a class="icon_link shadow" href="#"><i class="fab fa-facebook-f"></i></a>
+								<a class="icon_link shadow" href="#"><i class="fab fa-twitter"></i></a>
+								<a class="icon_link shadow" href="#"><i class="fab fa-instagram"></i></a>
+							</div>
+						</div>
+					</div>
+					<div class="copyright">
+						<p>©2020LaslesVPN</p>
+					</div>
+				</div>
+				<div class="col-lg-2 col-sm-6">
+					<div class="footer_items">
+						<h3 class="footer_title">Product</h3>
+						<a href="#">
+							<p> Download </p>
+						</a>
+						<a href="#">
+							<p> Pricing </p>
+						</a>
+						<a href="#">
+							<p> Locations </p>
+						</a>
+						<a href="#">
+							<p> Server </p>
+						</a>
+						<a href="#">
+							<p> Countries </p>
+						</a>
+						<a href="#">
+							<p> Blog </p>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-6">
+					<div class="footer_items">
+						<h3 class="footer_title">Engage</h3>
+						<a href="#">
+							<p> LaslesVPN ? </p>
+						</a>
+						<a href="#">
+							<p> FAQ </p>
+						</a>
+						<a href="#">
+							<p> Tutorials </p>
+						</a>
+						<a href="#">
+							<p> About Us </p>
+						</a>
+						<a href="#">
+							<p> Privacy Policy </p>
+						</a>
+						<a href="#">
+							<p> Terms of Service </p>
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-2 col-sm-6">
+					<div class="footer_items">
+						<h3 class="footer_title">Earn Money</h3>
+						<a href="#">
+							<p> Affiliate </p>
+						</a>
+						<a href="#">
+							<p> Become Partner </p>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!---------footer section end-------->
+
+
+	<!--bootstrap js cdn---------->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
